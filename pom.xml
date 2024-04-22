@@ -103,7 +103,7 @@
                         </dependencies>
                         <configuration>
                             <reuseForks>false</reuseForks>
-                            <argLine> -Djdk.attach.allowAttachSelf --add-opens java.base/jdk.internal.loader=ALL-UNNAMED </argLine>
+                            <argLine>-Djdk.attach.allowAttachSelf --add-opens java.base/jdk.internal.loader=ALL-UNNAMED</argLine>
                         </configuration>
                     </plugin>
                 </plugins>
